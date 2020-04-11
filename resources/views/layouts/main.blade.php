@@ -6,6 +6,7 @@
     <title>Laravel</title>
     <link rel="stylesheet" href="/css/main.css">
     @livewireStyles
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script> 
 </head>
 <body class="font-sans bg-gray-900 text-white">
     <nav class="border-b border-gray-800">
