@@ -23,7 +23,7 @@ class MovieViewModel extends ViewModel
             'crew' => collect($this->movie['credits']['crew'])->take(2),
             'cast' => collect($this->movie['credits']['cast'])->take(5),
             'images' => collect($this->movie['images']['backdrops'])->take(9),
-        ])->dump();
+        ]);
     }
 }
 
